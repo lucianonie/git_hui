@@ -1,0 +1,80 @@
+// _main.scss
+
+main {
+    h1 {
+        font-family: $font-family-oswald;
+        width: 100%;
+    }
+
+    h2 {
+        color: $color-aquamarine;
+        font-family: $font-family-courier;
+    }
+
+    h1, h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: $padding-default;
+        margin: $margin-default;
+    }
+}
+
+.text-r {
+    width: 90%;
+    max-width: $max-width;
+    padding: $padding;
+    background-color: $color-white;
+    border: 1px solid $color-gray-light;
+    border-radius: $border-radius;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sub {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact {
+    color: $color-blue;
+    text-decoration: underline;
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.img-por {
+    width: 35%;
+}
+
+.move-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: $gap;
+    padding: $padding;
+    margin: 0;
+
+    li {
+        .grid-item {
+            display: block;
+        }
+    }
+
+    .grid-item {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.separar {
+    padding: $padding-default;
+    margin: $margin-default;
+    background-color: $color-white;
+}

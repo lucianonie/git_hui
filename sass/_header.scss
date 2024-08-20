@@ -1,0 +1,20 @@
+// _header.scss
+
+.mi-clase {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: $gap;
+    padding-left: 30px;
+    margin: 0 $margin-default;
+    background-color: $color-aqua;
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 30%;
+    }
+}
